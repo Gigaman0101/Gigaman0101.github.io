@@ -1,9 +1,10 @@
 /* body */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .resume-container {
     background-color: white;
     display: flex;
@@ -13,7 +14,7 @@
 
 /* header */
 .resume-header {
-    background-color:black;
+    background-color: black;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -21,9 +22,11 @@
     position: fixed;
     width: 100vw;
 }
+
 .resume-header-list {
     background-color: black;
 }
+
 .resume-header-list a {
     display: inline-block;
     text-align: center;
@@ -32,13 +35,16 @@
     text-decoration: none;
     cursor: pointer;
 }
+
 .resume-header-list a:hover {
     background-color: #777777;
 }
+
 .resume-aboutme-image {
     border-radius: 50%;
     padding: 5px;
-  }
+    object-fit: cover;
+}
 
 /* container */
 .resume-profile {
@@ -51,20 +57,24 @@
     background-color: white;
     background-size: 100% 100%;
 }
-.resume-profile-container{
+
+.resume-profile-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 15px;
     font-size: 36px;
 }
+
 .resume-profile-container-link {
     display: flex;
     flex-direction: row;
 }
+
 .resume-profile-container-link a {
     padding-right: 5px;
 }
+
 .resume-aboutme {
     display: flex;
     flex-direction: column;
@@ -72,6 +82,7 @@
     font-size: 28px;
     color: white;
 }
+
 .resume-aboutme-text {
     display: flex;
     flex-direction: column;
@@ -79,6 +90,7 @@
     background-color: black;
     padding: 60px 60px 60px 60px;
 }
+
 .resume-aboutme-history {
     display: flex;
     /* flex-direction: column; */
@@ -87,23 +99,29 @@
     padding: 0px 80px 80px 80px;
     color: black;
 }
+
 .resume-aboutme-mypic {
     padding: 75px 100px 100px 100px;
 }
+
 .resume-aboutme-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.resume-aboutme-list{
+
+.resume-aboutme-list {
     padding: 100px 100px 100px 100px;
 }
+
 .resume-aboutme-list h3 {
     padding-bottom: 20px;
 }
+
 .resume-aboutme-list ul {
     list-style-type: none;
 }
+
 .resume-education {
     display: flex;
     justify-content: center;
@@ -111,38 +129,45 @@
     font-size: 28px;
     background-color: #f3f3f3;
 }
+
 .resume-education h3 {
     text-align: center;
     padding-bottom: 50px;
 }
+
 .resume-experience {
     display: flex;
     justify-content: center;
     padding: 100px 100px 75px 100px;
     font-size: 28px;
 }
+
 .resume-experience-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
+
 .resume-experience-container-head {
     padding-bottom: 50px;
 }
+
 .resume-experience-container-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 5px;
 }
+
 .resume-experience-container-box-header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-bottom: 20px;
 }
-.resume-experience-container-box-duty ul{
+
+.resume-experience-container-box-duty ul {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -157,13 +182,15 @@
     justify-content: center;
     padding: 100px;
     font-size: 28px;
-    background-color:  #f3f3f3;
+    background-color: #f3f3f3;
 }
+
 .resume-skill-container {
     display: flex;
     flex-direction: column;
 }
-.resume-skill-container h3{
+
+.resume-skill-container h3 {
     text-align: center;
     padding-bottom: 50px;
 }
@@ -175,10 +202,12 @@
     background-color: gray;
     padding: 40px;
 }
+
 .resume-bio h1 {
     font-size: 25px;
     padding-bottom: 10px;
 }
+
 .resume-bio p {
     font-size: 20px;
 }
